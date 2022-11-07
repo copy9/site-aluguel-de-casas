@@ -5,14 +5,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica;
-    color: #323232;
+    color: #d1bebe;
     border: none;
 }
 
 body {
-    background-image: url(../../site-de-casas/img/city-wallpaper-5.jpg);
+    background-image: url(../img/city-wallpaper-5.jpg);
     background-size: cover;
-    background-position-y:-100px;
+    background: position y -100%;
 }
 
 textarea:focus, input:focus {
@@ -29,11 +29,12 @@ a:hover {
 
 /*Container login */
 #login-container{
-    background-color: #fff;
+    
+    background-color: rgba(255, 255, 255, 0.232);
     width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     padding: 20px 30px;
+    border: solid blue;
     margin-top: 10vh;
     border-radius: 10px;
     text-align: center;
@@ -78,8 +79,8 @@ input[type="submit"] {
     text-transform: uppercase;
     font-weight: bold;
     border: none;
-    height: 40px;
-    border-radius: 20px;
+    height: 50px;
+    border-radius: 10px;
     margin-top: 30px;
     color: #fff;
     background-color: #08558B;
@@ -115,12 +116,7 @@ input[type="submit"]:houver {
         margin-bottom: 10px;
     }
 
-    /*colocando responsividade*/
-    @media screen and (max-width: 720px;)
-    section, side {
-        width: 100%;
-        padding: 0px;
-    }
+    
 
     
     
