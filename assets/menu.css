@@ -3,10 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    
+}
+
+.cards{
+    display: contents;
 }
 
 body {
-    background: #F6F9FF;
+    overflow-y: hidden;
+    background-color: rgba(162, 50, 50, 0.107);    
     height: 100vh;
     width: 100%;
 
@@ -17,25 +23,24 @@ body {
     color: #434343;
 
     font-size: 16px;
+    
 }
 
-
+.pergunta {
+    display: block;
+}
 
 main.cards {
-    display: flex;
-    padding: 32px;
+    display: inline-flex;
+    padding: auto;
+    width: auto;
 }
 
 main.cards section.card {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
-    background: white;
+    background: rgba(255, 255, 255, 0);
     padding: 1rem 1.5rem;
-    border-radius: 8px;
-    max-height: 468px;
-    margin-left: 32px;
 }
 
 main.cards section.card:first-child {
@@ -56,23 +61,15 @@ main.cards section.card h3 {
     margin: 16px 0;
 }
 
-main.cards section.card span {
-    font-weight: 300;
-    max-width: 240px;
-    font-size: 80%;
-    margin-bottom: 16px;
-}
-
 main.cards section.card button {
+    display: inline-block;
     padding: 0.5rem 1rem;
-    text-transform: uppercase;
-    border-radius: 32px;
-    border: 0;
+    text-transform: lowercase;
+    border-radius: 10px;
     cursor: pointer;
-    font-size: 80%;
-    font-weight: 500;
-    color: rgb(167, 36, 36);
-    margin-bottom: 16px 0;
+    font-weight: bolder;
+    background-color: #3e8bff6c;
+    color: #ffff;
 }
 
 main.cards section.card.contact button {
