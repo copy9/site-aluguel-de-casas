@@ -1,10 +1,9 @@
 *{
 
-    margin: 0;
-    padding: 0;
+    margin: 1vh;
+    padding:0;
     box-sizing: border-box;
     font-family: sans-serif;
-}
 
 .menu {
     display: flex;
@@ -58,7 +57,7 @@ nav ul li a{
     align-self: center;
 }
 .container {
-    display: flex;
+    display:flex;
     width: 90%;
     align-items: center;
     gap: 100px;
@@ -68,15 +67,16 @@ nav ul li a{
     align-self: flex-end;
 }
 
+
+
 .left-side {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-.select-image img {
-    max-width: 250px; 
-        width: 100%;
-        border-radius: 10px;
+.img {
+   border: 1px solid blue;
+      border-radius: 10px;
 }
 
 .thumbnails {
@@ -157,7 +157,7 @@ width: 20px;
     text-decoration: none;
     color: #ffff;
     background-color: #08558B;
-    padding: 10px 35px;
+    padding: 10px 5px;
     border-radius: 10px;
     display: flex;
     align-items: center;
